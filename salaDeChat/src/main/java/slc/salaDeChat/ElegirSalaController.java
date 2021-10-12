@@ -96,6 +96,7 @@ public class ElegirSalaController {
     @FXML
     private void entrarSala2() {
 	    try {
+	    	Sala2Controller.setSala(listaSala.get(1) , usuario);
 			App.loadScene(new Stage(), "Sala2", " Sala 2 ");
 			//App.setRoot("Sala2");
 

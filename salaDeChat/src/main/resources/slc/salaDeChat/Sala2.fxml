@@ -13,9 +13,9 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="slc.salaDeChat.Sala2Controller">
    <right>
-      <TableView prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <TableView fx:id="tablaUsuarios" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
         <columns>
-          <TableColumn prefWidth="199.0" text="Usuarios en linea " />
+          <TableColumn fx:id="usuariosConectados" prefWidth="199.0" text="Usuarios en linea " />
         </columns>
       </TableView>
    </right>
@@ -30,7 +30,7 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button fx:id="botonSalir" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="SALIR">
+            <Button fx:id="botonSalir" mnemonicParsing="false" onAction="#salir" prefHeight="25.0" prefWidth="55.0" text="SALIR">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
@@ -45,11 +45,11 @@
       </GridPane>
    </top>
    <center>
-      <TableView prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <TableView fx:id="tablaChat" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
         <columns>
-          <TableColumn prefWidth="88.0" text="NICK" />
-          <TableColumn prefWidth="224.0" text="TEXTO" />
-            <TableColumn prefWidth="87.0" text="TIEMPO" />
+          <TableColumn fx:id="nick" prefWidth="88.0" text="NICK" />
+          <TableColumn fx:id="texto" prefWidth="224.0" text="TEXTO" />
+            <TableColumn fx:id="tiempo" prefWidth="87.0" text="TIEMPO" />
         </columns>
       </TableView>
    </center>
@@ -67,7 +67,7 @@
                <GridPane.margin>
                   <Insets left="20.0" />
                </GridPane.margin></TextField>
-            <Button fx:id="botonEnviar" mnemonicParsing="false" text="ENVIAR" GridPane.columnIndex="1" GridPane.halignment="CENTER" />
+            <Button fx:id="botonEnviar" mnemonicParsing="false" onAction="#enviar" text="ENVIAR" GridPane.columnIndex="1" GridPane.halignment="CENTER" />
          </children>
       </GridPane>
    </bottom>
