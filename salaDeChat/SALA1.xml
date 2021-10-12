@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sala nombre="SALA1">
+    <ususariosConectados>
+        <usuario>
+            <nick>a</nick>
+        </usuario>
+        <usuario>
+            <nick>b</nick>
+        </usuario>
+    </ususariosConectados>
+    <mensajes>
+        <mensaje>
+            <usuario>
+                <nick>a</nick>
+            </usuario>
+            <fecha>2021-10-12T19:43:52.933024400</fecha>
+            <texto>hola a</texto>
+        </mensaje>
+        <mensaje>
+            <usuario>
+                <nick>b</nick>
+            </usuario>
+            <fecha>2021-10-12T19:44:14.959307900</fecha>
+            <texto>hola b</texto>
+        </mensaje>
+        <mensaje>
+            <usuario>
+                <nick>c</nick>
+            </usuario>
+            <fecha>2021-10-12T19:45:53.268612100</fecha>
+            <texto>hola c</texto>
+        </mensaje>
+        <mensaje>
+            <usuario>
+                <nick>d</nick>
+            </usuario>
+            <fecha>2021-10-12T19:46:11.813551</fecha>
+            <texto>hola d</texto>
+        </mensaje>
+    </mensajes>
+</sala>
