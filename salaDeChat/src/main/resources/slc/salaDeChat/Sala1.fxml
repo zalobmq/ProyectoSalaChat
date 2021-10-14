@@ -23,7 +23,6 @@
       <GridPane prefHeight="30.0" prefWidth="144.0" BorderPane.alignment="CENTER">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" maxWidth="294.0" minWidth="10.0" prefWidth="162.4" />
-          <ColumnConstraints hgrow="SOMETIMES" maxWidth="545.0" minWidth="10.0" prefWidth="142.6" />
             <ColumnConstraints hgrow="SOMETIMES" maxWidth="545.0" minWidth="10.0" prefWidth="505.0" />
         </columnConstraints>
         <rowConstraints>
@@ -35,8 +34,7 @@
                   <Insets left="10.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="botonReglas" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="REGLAS" GridPane.columnIndex="1" />
-            <Label prefHeight="18.0" prefWidth="410.0" text="SALA 1" GridPane.columnIndex="2">
+            <Label prefHeight="18.0" prefWidth="410.0" text="SALA 1" GridPane.columnIndex="1">
                <GridPane.margin>
                   <Insets left="50.0" right="50.0" />
                </GridPane.margin>
