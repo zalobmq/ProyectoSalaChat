@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sala nombre="SALA1">
+    <ususariosConectados>
+        <usuario>
+            <nick>gonzalo</nick>
+        </usuario>
+        <usuario>
+            <nick>eduardo</nick>
+        </usuario>
+    </ususariosConectados>
+    <mensajes>
+        <mensaje>
+            <usuario>
+                <nick>eduardo</nick>
+            </usuario>
+            <fecha>2021-10-12T20:45:28.253816300</fecha>
+            <texto>hola gonzalo</texto>
+        </mensaje>
+        <mensaje>
+            <usuario>
+                <nick>gonzalo</nick>
+            </usuario>
+            <fecha>2021-10-12T20:45:48.645593800</fecha>
+            <texto>hola eduardo</texto>
+        </mensaje>
+    </mensajes>
+</sala>
